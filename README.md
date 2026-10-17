@@ -98,7 +98,7 @@ RetailPulse/
 | F-05 inventory | back-test cost −79 %, lost sales −92 % (inventory level +93 %) |
 | Drift | injected shock detected → retrain triggered |
 
-⚠️ These numbers come from **synthetic demo data** in an environment *without PyTorch* (a gradient-boosting lag model stood in for the LSTM). Run the notebooks in Colab on the **real Kaggle data** to get your real results – the DOCX reports are regenerated automatically from them. Results are never faked: unmet targets are reported as unmet.
+ These numbers come from **synthetic  data** in an environment * PyTorch* (a gradient-boosting lag model stood in for the LSTM). Run the notebooks in Colab on the **real Kaggle data** to get your real results – the DOCX reports are regenerated automatically from them. Results are never faked: unmet targets are reported as unmet.
 Stock-on-hand is **simulated** (public retail data has no inventory table).
 
 ## 8. Git workflow (as required by Zidio)
@@ -113,4 +113,4 @@ Semantic commits: `feat:` `fix:` `docs:` `test:` `refactor:`. No secrets are com
 Customer IDs only (no names); recommended: anonymise IDs, role-based access, JWT on API endpoints, audit logging.
 
 ---
-*Made with ❤️ by **Santosh Kumar** – Zidio Development Data Science & Analytics, March 2026.*
+*Made  by **Santosh Kumar** – Zidio Development Data Science & Analytics, oct 2026.*
