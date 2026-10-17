@@ -1,0 +1,9 @@
+# Light requirements for Streamlit Community Cloud / Hugging Face (no Prophet / PyTorch needed)
+numpy
+pandas
+scipy
+scikit-learn
+statsmodels
+xgboost
+plotly
+streamlit>=1.50
