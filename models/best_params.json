@@ -1,0 +1,16 @@
+{
+  "xgboost": {
+    "n_estimators": 200,
+    "max_depth": 2,
+    "learning_rate": 0.010319245096769352,
+    "subsample": 0.832819732790913,
+    "colsample_bytree": 0.6018186889360604,
+    "min_child_weight": 7,
+    "reg_lambda": 5.0216127960188945
+  },
+  "prophet": {
+    "changepoint_prior_scale": 0.040842279473800806,
+    "seasonality_prior_scale": 6.407866261851015,
+    "seasonality_mode": "multiplicative"
+  }
+}

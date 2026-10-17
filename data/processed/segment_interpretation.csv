@@ -1,0 +1,8 @@
+segment,customers,recency,frequency,monetary,revenue_share_%,recommended_action
+Champions - Top Value,201,8.2,23.9,2882.8,34.3,"Reward, early access to new products, ask for reviews/referrals."
+Can't Lose Them - Top Value,236,160.1,16.1,1951.3,27.3,Urgent win-back with personal outreach and special discount.
+Champions - Entry Value,296,20.4,7.8,912.3,16.0,"Reward, early access to new products, ask for reviews/referrals."
+Can't Lose Them - Entry Value,354,268.6,5.5,679.1,14.2,Urgent win-back with personal outreach and special discount.
+Hibernating / Lost - Top Value,380,369.0,1.8,229.2,5.2,Low-cost reactivation or sunset from marketing spend.
+New / Promising,151,31.5,2.5,251.4,2.2,"Welcome series, second-purchase incentive."
+Hibernating / Lost - Entry Value,282,356.8,1.1,46.7,0.8,Low-cost reactivation or sunset from marketing spend.

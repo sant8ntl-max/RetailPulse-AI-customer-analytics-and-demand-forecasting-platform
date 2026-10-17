@@ -1,0 +1,42 @@
+{
+  "project": "RetailPulse - AI-Powered Customer Analytics & Demand Forecasting Platform",
+  "author": "Santosh Kumar",
+  "data_source": "Synthetic demo data",
+  "forecast_model": {
+    "type": "Prophet + LSTM weighted ensemble",
+    "weight_prophet": 1.0,
+    "horizon_days": 30,
+    "engines": {
+      "prophet": "Prophet",
+      "lstm": "GBM lag model (LSTM fallback)"
+    },
+    "test_metrics": {
+      "MAPE_daily_%": 17.997,
+      "MAPE_weekly_%": 10.439,
+      "WAPE_%": 14.286,
+      "sMAPE_%": 15.935,
+      "RMSE": 359.003,
+      "MAE": 246.578,
+      "Bias": 47.774
+    }
+  },
+  "churn_model": {
+    "type": "XGBoost",
+    "label": "no purchase in next 90 days",
+    "test_metrics": {
+      "AUC-ROC": 0.85,
+      "PR-AUC": 0.906,
+      "F1": 0.797,
+      "Precision@top20%": 0.981,
+      "Recall@top20%": 0.323,
+      "Brier": 0.163,
+      "threshold": 0.25
+    }
+  },
+  "intended_use": "Retail demand planning, retention campaigns, replenishment recommendations",
+  "limitations": [
+    "Stock on hand is simulated for public data",
+    "Daily MAPE is high for lumpy wholesale demand",
+    "Retrain when PSI > 0.2 on 2+ features"
+  ]
+}
